@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ThaiKietdepzai</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="app">
+         <header class="header">
+             <div class="grid">
+                 <nav class="header__navbar">
+                     <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng
+                        <div class="header__qr">
+                            <img src="/assets/img/QRcode.png" alt="QR code" class="header__qr--img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="/assets/img/googleplay.png" alt="Google Play" class="header__qr-download--img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="/assets/img/appstore.png" alt="Appstore" class="header__qr-download--img">
+                                </a>
+
+                            </div>
+                        </div>
+                        </li>
+                        <li class="header__navbar-item"><span class="header__navbar-poin--te-r">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                     </ul>
+                     <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fa-regular fa-bell"></i>
+                                Thông báo</a>
+                                <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới</h3>
+                                </header> 
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://toplisthanoi.com/wp-content/uploads/2021/06/linh-kien-may-tinh-ha-noi-4-e1623149703779.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sản phẩm chính hảng</span>
+                                                <span class="header__notify-dec">Mô tả của sản phẩm chính hảng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/09/phu-kien-2020-phong-vu-1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sản phẩm chính hảng</span>
+                                                <span class="header__notify-dec">Mô tả của sản phẩm chính hảng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.tgdd.vn/Files/2019/04/24/1162872/huong-dan-cach-lua-chon-linh-kien-de-build-pc-chuan-nhat--760x367.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sản phẩm chính hảng</span>
+                                                <span class="header__notify-dec">Mô tả của sản phẩm chính hảng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-ppp">Xem tất cả</a>
+                                </footer>
+                            </div> 
+                            </li>
+                        <a href="" class="header__navbar-item-link">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Trợ giúp
+                        </a>
+                        <!-- <li class="header__navbar-icon header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-icon header__navbar-item header__navbar-item--strong ">Đăng nhập</li> -->
+                            <li class="header__navbar-item header__navbar-user">
+                                <img src="http://windows79.com/wp-content/uploads/2021/02/Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac.png" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-item-username">Thái Kiệt</span>                                
+
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Tài khoản của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Địa chỉ của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đơn mua</a>
+                                    </li>
+                                    <li class="header__navbar-user-item header__navbar-user-item-space">
+                                        <a href="">Đăng xuất</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                    </ul>
+                 </nav>
+                 <!-- header timkiem -->
+                 <div class="header-with-timkiem">
+                     <div class="header__logo">
+                        <a href="#">
+                            <img class="header__logo-K" src="/assets/img/KKK.png!bw700" alt="">
+                        </a>
+                     </div>
+                     <div class="header__timkiem">
+                         <div class="header__timkiem-input-wrap">
+                             <input type="text" class="header__timkiem-input" placeholder="Tìm kiếm sản phẩm">
+                             <!-- lich su tim kiem -->
+                             <div class="header__timkiem-lichsu">
+                                 <h3 class="header__timkiem-lichsu-heading">Lịch sử tìm kiếm</h3>
+                                 <ul class="header__timkiem-lichsu-list">
+                                     <li class="header__timkiem-lichsu-item">
+                                         <a href="">key cap</a>
+                                     </li>
+                                     <li class="header__timkiem-lichsu-item">
+                                        <a href="">red switch</a>
+                                    </li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="header__timkiem-luachon">
+                             <span class="header__timkiem-luachon-lable">Trong shop</span>
+                             <i class="header__timkiem-luachon-icon fa-solid fa-angle-down"></i>
+                            
+                             <ul class="header__timkiem-option">
+                                 <li class="header__timkiem-option-item header__timkiem-option-item-active">
+                                     <span>Trong shop</span>
+                                     <i class="fa-solid fa-check"></i>
+                                 </li>
+                                 <li class="header__timkiem-option-item header__timkiem-option-item-active ">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                             </ul>
+                         </div>
+                         <button class="header__timkiem-btn">
+                            <i class="header__timkiem-btn-icon fa-solid fa-magnifying-glass"></i>
+                         </button>
+                        </div>
+                        <!-- gio hang -->
+                     <div class="header__giohang">
+                        <div class="header__giohang-wrap">
+                            <i class="header__giohang-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__giohang-thongbao">2</span>
+                            <!-- gio hang trong -->
+                            <div class="header__giohang-list">
+                            <img src="./assets/img/cart-empty.png" alt="" class="header__giohang-list--no-img">
+                            <span class="header__giohang-list-ohno">
+                                Chưa có sản phẩm
+                            </span>
+                            <h4 class="header__giohang-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__giohang-list-item">
+                                <!-- gio hang co hang -->
+                                <li class="header__giohang-item">
+                                    <img src="https://banphimco.com/wp-content/uploads/2020/05/PBT-keycap-scaled.jpeg" alt="" class="header__giohang-img">
+                                    <div class="header__giohang-item-info">
+                                    <div class="header__giohang-item-head">
+                                        <h5 class="header__giohang-item-name">Bộ key cap custom </h5>
+                                        <div class="header__giohang-gia">
+                                            <span class="header__giohang-item-gia">600.000đ</span>
+                                            <span class="header__giohang-item-x">x</span>
+                                            <spam class="header__giohang-item-xx">2</spam>
+                                        </div>
+                                    </div>
+                                    <div class="header__giohang-item-body">
+                                        <span class="header__giohang-item-mota">
+                                                Phân loại: đen
+                                            </span>
+                                            <span class="header__giohang-item-xoa">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__giohang-item">
+                                    <img src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/120814/Originals/red-switch.jpg" alt="" class="header__giohang-img">
+                                    <div class="header__giohang-item-info">
+                                    <div class="header__giohang-item-head">
+                                        <h5 class="header__giohang-item-name">red switch</h5>
+                                        <div class="header__giohang-gia">
+                                            <span class="header__giohang-item-gia">400.000đ</span>
+                                            <span class="header__giohang-item-x">x</span>
+                                            <spam class="header__giohang-item-xx">1</spam>
+                                        </div>
+                                    </div>
+                                    <div class="header__giohang-item-body">
+                                        <span class="header__giohang-item-mota">
+                                                Phân loại: cao cấp
+                                            </span>
+                                            <span class="header__giohang-item-xoa">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__giohang-item">
+                                    <img src="https://banphimco.com/wp-content/uploads/2020/05/PBT-keycap-scaled.jpeg" alt="" class="header__giohang-img">
+                                    <div class="header__giohang-item-info">
+                                    <div class="header__giohang-item-head">
+                                        <h5 class="header__giohang-item-name">Bộ key cap custom</h5>
+                                        <div class="header__giohang-gia">
+                                            <span class="header__giohang-item-gia">600.000đ</span>
+                                            <span class="header__giohang-item-x">x</span>
+                                            <spam class="header__giohang-item-xx">2</spam>
+                                        </div>
+                                    </div>
+                                    <div class="header__giohang-item-body">
+                                        <span class="header__giohang-item-mota">
+                                                Phân loại: đen
+                                            </span>
+                                            <span class="header__giohang-item-xoa">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__giohang-item">
+                                    <img src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/120814/Originals/red-switch.jpg" alt="" class="header__giohang-img">
+                                    <div class="header__giohang-item-info">
+                                    <div class="header__giohang-item-head">
+                                        <h5 class="header__giohang-item-name">red switch</h5>
+                                        <div class="header__giohang-gia">
+                                            <span class="header__giohang-item-gia">400.000đ</span>
+                                            <span class="header__giohang-item-x">x</span>
+                                            <spam class="header__giohang-item-xx">1</spam>
+                                        </div>
+                                    </div>
+                                    <div class="header__giohang-item-body">
+                                        <span class="header__giohang-item-mota">
+                                                Phân loại: cao cấp
+                                            </span>
+                                            <span class="header__giohang-item-xoa">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        <button class="header__giohang-check nut nut--primary">Xem giỏ hàng</button>           
+                        </div>
+                        </div>
+                        
+                    </div>
+                 </div>
+             </div>
+         </header>
+         <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__colum-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+            
+                            <ul class="category__list">
+                                <li class="category__item category__item-active">
+                                    <a href="" class="category__item-link">PC,laptop gaming</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">PC,laptop văn phòng</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">Linh kiện PC</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">Bàn phím cơ</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">Ghế làm việc,..</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">Bàn..</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__colum-10">
+                        <div class="home__filter">
+                            <span class="home__filter_lable">Sắp xếp theo</span>
+                            <button class="home__filter_nut nut nut--primary">Phổ biến</button>
+                            <button class="home__filter_nut nut">Mới nhất</button>
+                            <button class="home__filter_nut nut">Bán chạy</button>
+
+                            <div class="select_input">
+                                <span class="select_input-lable">Giá</span>
+                                <i class="select_input-icon fa-solid fa-angle-down"></i>
+                                <ul class="select_input-list">
+                                    <li class="select_input-item">
+                                        <a href="" class="select_input-link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select_input-item">
+                                        <a href="" class="select_input-link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home__filter-page">
+                                <span class="home__filter-page-mumber">
+                                    <span class="home__filter-page-br">1</span>/10
+                                </span>
+
+                                <div class="home__filter-page-control">
+                                    <a href="" class="home__filter-page_nut">
+                                        <i class="home__filter-page-icon fa-solid fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home__filter-page_nut">
+                                        <i class="home__filter-page-icon fa-solid fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__product">
+                            <div class="grid__row">
+                                <!-- Product item -->
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://phucanhcdn.com/media/product/20614_b__n_ph__m_kh__ng_d__y_rapoo_e9050__3_.jpg);" ></div>
+                                    <h4 class="home__product-item-name">Bộ bàn phím không dây Logitech MK470 Đen (Black)</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">1.000.000đ</span>
+                                        <span class="home__product-item-pricecurrent">940.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">302 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">20%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/86/225023/chuot-bluetooth-microsoft-modern-mobile-ktf-01-600x600.jpg);" ></div>
+                                    <h4 class="home__product-item-name">Chuột không dây KTF 4 màu</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">650.000đ</span>
+                                        <span class="home__product-item-pricecurrent">450.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">45 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">microsoft</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">40%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/4547/230870/ban-phim-co-co-day-gaming-corsair-k63-den-2-1-org.jpg);" ></div>
+                                    <h4 class="home__product-item-name">Bàn Phím Cơ Có Dây Gaming Corsair K63 Compact Mechanical Đen </h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">1.750.000đ</span>
+                                        <span class="home__product-item-pricecurrent">1.500.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">112 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">20%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/39cefa0e6cfa07225074fcb5f5b52e0a);" ></div>
+                                    <h4 class="home__product-item-name">USB UNIFYING RECEIVER</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">500.000đ</span>
+                                        <span class="home__product-item-pricecurrent">299.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">446 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">20%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/1b/13/3a/6dcb20e94b98474bf0901565250f0de3.jpg);" ></div>
+                                    <h4 class="home__product-item-name">Miếng Lót Chuột Logitech Lớn Kích Thước 800*300*4mm Bàn Thảm Miếng Lót Bàn Phím Bề Mặt Mịn APEX Game Vải và đế cao su</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">200.000đ</span>
+                                        <span class="home__product-item-pricecurrent">157.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">1.2k Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">25%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://product.hstatic.net/1000026716/product/g733_6f97109db5774b769bf60c5d225d8254.png);" ></div>
+                                    <h4 class="home__product-item-name">Tai nghe Logitech G733 KDA Lightspeed Wireless</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">3.999.000đ</span>
+                                        <span class="home__product-item-pricecurrent">3.499.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">678 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">15%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://hanoicomputercdn.com/media/product/17151_webcam_logitech_hd_c270_01.png);" ></div>
+                                    <h4 class="home__product-item-name">Webcam Logitech HD C270</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">1.109.000đ</span>
+                                        <span class="home__product-item-pricecurrent">699.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">332 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">15%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://hanoicomputercdn.com/media/product/41694_logitech_g560.png);" ></div>
+                                    <h4 class="home__product-item-name">Loa Logitech G560 LIGHTSYNC RGB Gaming</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">4.700.000đ</span>
+                                        <span class="home__product-item-pricecurrent">4.300.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">165 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">10%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://microthuam.com/Uploadimage/product/micro-hop-truc-tuyen-logitech-desktop-usb..jpg);" ></div>
+                                    <h4 class="home__product-item-name">MICRO HỌP TRỰC TUYẾN LOGITECH DESKTOP USB</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">500.000đ</span>
+                                        <span class="home__product-item-pricecurrent">350.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">90 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">Logitech</span>
+                                        <span class="home__product-item-origin-name">US</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">20%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a href="#" class="home__product-item">
+                                        <div class="home__product-item-img" style="background-image: url(https://thegioidentrangtri.com/multidata/den-trang-tri-de-ban.jpg);" ></div>
+                                    <h4 class="home__product-item-name">Đèn Bàn Làm Việc ZKD1004B</h4>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-priceold">1.000.000đ</span>
+                                        <span class="home__product-item-pricecurrent">780.000đ</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <div class="home__product-item-like home__product-item-liked">
+                                            <i class="home__product-item-like-1 fa-regular fa-heart"></i>
+                                            <i class="home__product-item-like-2 fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="home__product-item-rating">
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="home__product-item-stargold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">0 Đã bán</span>
+                                    </div>
+                                    <div class="home__product-item-origin">
+                                        <span class="home__product-item-brand">no brand</span>
+                                        <span class="home__product-item-origin-name">Nhập khẩu</span>
+                                    </div>
+                                    <div class="home__product-item-favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="home__product-item-saleoff">
+                                        <span class="home__product-item-saleoff_percent">20%</span>
+                                        <span class="home__product-item-saleoff_lable">Giảm</span>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home__product-pagition">
+                            <li class="pagination_item ">
+                                <a href="" class="pagination_item-link">
+                                    <i class="pagination_item-icon home__filter-page-icon fa-solid fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination_item pagination_item--active">
+                                <a href="" class="pagination_item-link">1</a>
+                            </li>
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">2</a>
+                            </li>
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">3</a>
+                            </li>
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">4</a>
+                            </li>
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">...</a>
+                            </li>
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">10</a>
+                            </li>                            
+                            <li class="pagination_item">
+                                <a href="" class="pagination_item-link">
+                                    <i class="pagination_item-icon home__filter-page-icon fa-solid fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <footer class="footer">
+         <div class="grid">
+             <div class="grid__row">
+                 <div class="grid__colum-2-4">
+                     <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                     <ul class="footer__list">
+                         <li class="footer__item">
+                             <a href="" class="footer__item-link">Trung tâm trợ giúp</a>
+                         </li>
+                         <li class="footer__item">  
+                             <a href="" class="footer__item-link">Kshop mall</a>
+                         </li>   
+                         <li class="footer__item">   
+                             <a href="" class="footer__item-link">Hướng dẫn mua hàng</a>
+                         </li>
+                     </ul>
+                     </div>
+                 <div class="grid__colum-2-4">
+                         <h3 class="footer__heading">Giới thiệu</h3>
+                         <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__item">  
+                                <a href="" class="footer__item-link">Tuyển dụng</a>
+                            </li>   
+                            <li class="footer__item">   
+                                <a href="" class="footer__item-link">Điều khoản</a>
+                            </li>
+                        </ul>
+                 </div>
+                 <div class="grid__colum-2-4">
+                 <h3 class="footer__heading">Danh Mục</h3>
+                
+                 </div>
+                   
+                 <div class="grid__colum-2-4">
+                    <h3 class="footer__heading">Theo dõi</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-facebook"></i>
+                                Facebook</a>
+                         </li>    
+                         <li class="footer__item">
+                            <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-instagram-square"></i>
+                                Instargram</a>
+                         </li>
+                         <li class="footer__item">
+                             <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-linkedin"></i>
+                                LinkKs</a>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="grid__colum-2-4">
+                    <h3 class="footer__heading">Vào cửa hàng bằng</h3>
+                        <div class="footer__download">
+                            <img src="/assets/img/QRcode.png" alt="Download QR" class="footer__qr">
+                            <div class="footer__apps-down">
+                                <a class="footer__apps-link">
+                                    <img src="http://127.0.0.1:5500/assets/img/googleplay.png" alt="Google Play" class="footer__apps-img">
+                                </a>
+                                <a class="footer__apps-link">
+                                    <img src="http://127.0.0.1:5500/assets/img/appstore.png" alt="Appstore"  class="footer__apps-img">                                 
+                                </a>
+                            </div>
+                        </div>                    
+                 </div>
+
+             </div>
+         </div>
+         <div class="footer__text">
+             <div class="grid">
+                 <ul class="exactly">
+                     <li class="exactly_item">
+                         <a href="" class="exactly_item-link">Chính xách bảo mật</a>
+                     </li>
+                     <li class="exactly_item">
+                         <a href="" class="exactly_item-link">quy chế hoạt động</a>
+                     </li>
+                     <li class="exactly_item">
+                         <a href="" class="exactly_item-link">chính xách vận chuyển</a>
+                     </li>
+                     <li class="exactly_item">
+                         <a href="" class="exactly_item-link">Chính xách trả hàng và hoàn tiền</a>
+                     </li>
+                 </ul>
+                 <p class="footer__text-item">© 2015 - Bản quyền thuộc về Công ty TNHH NTK(NguyenThaiKiet)</p>
+             </div>
+         </div>
+     </footer>
+     
+     
+     <!-- modal -->
+     <!-- <div class="modal">
+         <div class="modal__overlay"></div>
+         <div class="modal__body"> -->
+                 <!--form dangky-->
+                <!-- <div class="xm">
+                <div class="xm__container">
+                    <div class="xm__header">
+                        <h3 class="xm__heading">Đăng Ký</h3>
+                        <span class="xm__switch-ppp">Đăng Nhập</span>
+                    </div>
+                    <div class="xm_formm">
+                        <div class="xm_gr">
+                            <input type="text" class="xm__input" placeholder="Nhập email">
+                        </div>
+                        <div class="xm_gr">
+                            <input type="password" class="xm__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="xm_gr">
+                            <input type="password" class="xm__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="xm__aside">
+                        <p class="xm_policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về 
+                            <a href="" class="xm__policy-link">Điều khoản và dịch vụ</a> & 
+                            <a href="" class="xm__policy-link">Chính xách bảo mật</a> 
+                        </p>
+                    </div> 
+                    <div class="xm__dieukhien">
+                        <button class="nut nut--normal xm__dieukhien-trolai">TRỞ LẠI</button>
+                        <button class="nut nut--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                    <div class="xm__mxh">
+                        <a href="" class="nut xm__mxh--fb nut--size-s nut-icon">
+                        <i class="xm__mxh-icon fa-brands fa-facebook-square"></i>
+                            <span class="xm__mxh-title">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="nut xm__mxh--google nut--size-s nut-icon">
+                            <img width="20px" src="https://storage.googleapis.com/support-kms-prod/ZAl1gIwyUsvfwxoW9ns47iJFioHXODBbIkrK" alt="">
+                            <span class="xm__mxh-title">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+                <!-- form dangnhap -->
+               <!-- <div class="xm">
+                    <div class="xm__container">
+                        <div class="xm__header">
+                            <h3 class="xm__heading">Đăng Nhập</h3>
+                            <span class="xm__switch-ppp">Đăng Ký</span>
+                        </div>
+                        <div class="xm_formm">
+                            <div class="xm_gr">
+                                <input type="text" class="xm__input" placeholder="Nhập email">
+                            </div>
+                            <div class="xm_gr">
+                                <input type="password" class="xm__input" placeholder="Nhập mật khẩu">
+                            </div>
+                        </div>
+                        <div class="xm__aside">
+                            <div class="xm__help">
+                                <a href="" class="xm__help-link xm__help-link-forgot">Quên mật khẩu</a>
+                                <span class="xm__help-daucanh"></span>
+                                <a href="" class="xm__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div> 
+                        <div class="xm__dieukhien">
+                            <button class="nut nut--normal xm__dieukhien-trolai">TRỞ LẠI</button>
+                            <button class="nut nut--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+    
+                        <div class="xm__mxh">
+                            <a href="" class="nut xm__mxh--fb nut--size-s nut-icon">
+                            <i class="xm__mxh-icon fa-brands fa-facebook-square"></i>
+                                <span class="xm__mxh-title">Đăng nhập với Facebook</span>
+                            </a>
+                            <a href="" class="nut xm__mxh--google nut--size-s nut-icon">
+                                <img width="20px" src="https://storage.googleapis.com/support-kms-prod/ZAl1gIwyUsvfwxoW9ns47iJFioHXODBbIkrK" alt="">
+                                <span class="xm__mxh-title">Đăng nhập với Google</span>
+                            </a>
+                        </div>
+                    </div>   
+         </div>
+     </div> -->
+    </body>
+</html>
